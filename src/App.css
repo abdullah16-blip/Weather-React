@@ -28,6 +28,66 @@
   color: #61dafb;
 }
 
+.container {
+  text-align: center;
+}
+
+.search-box {
+  text-align: center;
+}
+
+.weather-info {
+  text-align: center;
+  background-color: #576dad;
+  padding: 2px;
+  border-radius: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.weather-info:hover {
+  transform: scale(1.03);
+}
+
+.forecast {
+  text-align:center;
+}
+
+.forecast-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.forecast-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.forecast-card:hover {
+  transform: scale(1.05);
+}
+
+.forecast-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.forecast-card p {
+  font-size: 1em;
+  color: #555;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
