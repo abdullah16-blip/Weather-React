@@ -38,13 +38,14 @@
 
 .weather-info {
   text-align: center;
-  background-color: #576dad;
+  background-color: #f2cf92;
   padding: 2px;
   border-radius: 200px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .weather-info:hover {
@@ -66,7 +67,7 @@
 }
 
 .forecast-card {
-  background-color: #f0f0f0;
+  background-color: #b5e6f5;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

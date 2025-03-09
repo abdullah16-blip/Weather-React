@@ -1,29 +1,3 @@
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
@@ -118,20 +92,7 @@ const WeatherApp = () => {
           <p>Wind Speed: {weather.wind.speed} m/s</p>
         </div>
       )}
-      {/* {forecast.length > 0 && (
-        <div className="forecast">
-          <h2>5-Day Forecast</h2>
-          <ul>
-            {forecast.map((day, index) => (
-              <li key={index} className="forecast-item">
-                <p>{new Date(day.dt * 1000).toLocaleDateString()}</p>
-                <p>{day.weather[0].description}</p>
-                <p>Temp: {day.main.temp}°C</p>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )} */}
+      
       {forecast.length > 0 && (
   <div className="forecast">
     <h2>5-Day Forecast</h2>
